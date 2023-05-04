@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FoodWasteManageApp</string>
+    <string-array name="spinner_items">
+        <item>Canned Goods</item>
+        <item>Dry Goods</item>
+        <item>Seasonings</item>
+        <item>Fresh Food</item>
+        <item>Cooking and Baking</item>
+        <item>Condiments</item>
+    </string-array>
+</resources>

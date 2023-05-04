@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66892489485",
+    "firebase_url": "https://food-waste-manage-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "food-waste-manage-app",
+    "storage_bucket": "food-waste-manage-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66892489485:android:9602f098cb399ce9b54644",
+        "android_client_info": {
+          "package_name": "com.faste.foodwastemanageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66892489485-0lt5nq4h3cu7v9cj4j12v8tu8cd27crj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faste.foodwastemanageapp",
+            "certificate_hash": "51ec9411e374cf23421bf49e2e2d8fa480f59fc8"
+          }
+        },
+        {
+          "client_id": "66892489485-3lv3nb17eoeqob36e67mvrhitfqrc2sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFhtupjBFV6vC2m5rNc9KRxvNV2cc18cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66892489485-2tiepu79nh0jiqjv1fqmpngfjo3jhitf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

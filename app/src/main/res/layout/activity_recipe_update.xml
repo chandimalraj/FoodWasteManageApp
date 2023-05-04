@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recipes.update.RecipeUpdateActivity"
+    android:background="#ACEDC9">
+
+    <Button
+        android:id="@+id/updateRecipeBtn"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/round_btn"
+        android:text="Update"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/updateRecipeImg" />
+
+    <EditText
+        android:id="@+id/updateRecipeName"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="recipe name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CFCCCC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/recipeAddTime4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Cooking Time"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/updateRecipeTime" />
+
+    <TextView
+        android:id="@+id/recipeUpdateShelf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Shelf Life"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/updateRecipeShelfLife" />
+
+    <TextView
+        android:id="@+id/recipeUpdateShelf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Directions"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/updateRecipeDirectios" />
+
+    <TextView
+        android:id="@+id/recipeAddTime7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/updateRecipeName" />
+
+    <EditText
+        android:id="@+id/updateRecipeShelfLife"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="shelf life"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CFCCCC"
+        app:layout_constraintStart_toStartOf="@+id/updateRecipeTime"
+        app:layout_constraintTop_toBottomOf="@+id/updateRecipeTime" />
+
+    <EditText
+        android:id="@+id/updateRecipeTime"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:hint="time in minutes"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CFCCCC"
+        app:layout_constraintStart_toStartOf="@+id/updateRecipeName"
+        app:layout_constraintTop_toBottomOf="@+id/updateRecipeName" />
+
+    <TextView
+        android:id="@+id/recipeAddTime5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Ingedients"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/updateRecipeIngredients" />
+
+    <EditText
+        android:id="@+id/updateRecipeIngredients"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="ingredients"
+        android:inputType="textMultiLine"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CFCCCC"
+        app:layout_constraintStart_toStartOf="@+id/updateRecipeDirectios"
+        app:layout_constraintTop_toBottomOf="@+id/updateRecipeDirectios" />
+
+    <EditText
+        android:id="@+id/updateRecipeDirectios"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/round_border"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="directions"
+        android:inputType="textMultiLine"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CFCCCC"
+        app:layout_constraintStart_toStartOf="@+id/updateRecipeShelfLife"
+        app:layout_constraintTop_toBottomOf="@+id/updateRecipeShelfLife" />
+
+    <TextView
+        android:id="@+id/recipeAddTime6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Image"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/updateRecipeImg" />
+
+    <ImageView
+        android:id="@+id/updateRecipeImg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="@+id/updateRecipeIngredients"
+        app:layout_constraintTop_toBottomOf="@+id/updateRecipeIngredients"
+        app:srcCompat="@drawable/chef" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/left" />
+</androidx.constraintlayout.widget.ConstraintLayout>

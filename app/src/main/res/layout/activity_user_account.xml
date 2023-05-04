@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ACEDC9"
+    tools:context=".user.account.UserAccountActivity">
+
+    <Button
+        android:id="@+id/userAccountHelpBtn"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/round_btn"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Help"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userAccountEmail" />
+
+    <Button
+        android:id="@+id/userAccountFBBtn"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/round_btn"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Feedback"
+        android:textColor="#FFFFFF"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userAccountEmail" />
+
+    <Button
+        android:id="@+id/userAccountJournalBtn"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/round_btn"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="My Journal"
+        android:textColor="#FFFFFF"
+
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userAccountEmail" />
+
+    <Button
+        android:id="@+id/userAccountDeleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/round_btn"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Delete Account"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/userAccountImgView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/userAccountName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="TextView"
+        android:textColor="#009688"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userAccountImgView" />
+
+    <TextView
+        android:id="@+id/userAccountEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:fontFamily="sans-serif-light"
+        android:text="TextView"
+        android:textColor="#009688"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userAccountImgView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
